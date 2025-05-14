@@ -1,0 +1,17 @@
+# Root-level .gitignore
+
+# Ignore all env files
+.env
+.env.local
+.env.production
+*.env
+
+# Infura / sensitive keys
+INFURA_API_KEY*
+INFURA_API_SECRET*
+PRIVATE_KEY*
+
+# Ignore all uploads or sensitive directories
+/uploads/
+/dist/
+/build/

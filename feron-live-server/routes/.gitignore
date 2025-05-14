@@ -1,0 +1,11 @@
+# feron-live-server/.gitignore
+
+.env
+.env.local
+.env.production
+
+# Prevent uploading node_modules
+node_modules/
+
+# Ignore any cached logs or debug
+*.log
