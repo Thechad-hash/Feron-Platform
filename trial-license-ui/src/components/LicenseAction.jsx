@@ -55,7 +55,7 @@ export default function LicenseAction({ modelId, modelOwner, ethAmount, selected
       await fetchLicenseHistory();
     } catch (err) {
       console.error("Minting error:", err);
-      setStatus("❌ Mint failed. See console.");
+      setStatus("❌ Mint failed.");
     }
   };
 

@@ -79,7 +79,7 @@ export default function RegisterAi() {
 
     } catch (err) {
       console.error("❌ Error:", err);
-      setStatus("❌ Registration failed. See console.");
+      setStatus("❌ Registration failed.");
     }
   };
 
