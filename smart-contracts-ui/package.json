@@ -1,17 +1,11 @@
 {
   "name": "smart-contracts-ui",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "ethers": "^6.6.4",
     "react": "^19.1.0",
@@ -19,14 +13,11 @@
     "wagmi": "^2.15.0"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.6",
     "@vitejs/plugin-react": "^4.4.1",
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.3",
     "tailwindcss": "^4.1.6",
-    "vite": "^6.3.3"
-  },
-    "overrides": {
-    "bufferutil": false
+    "vite": "^6.3.5"
   }
-
 }
