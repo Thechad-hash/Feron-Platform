@@ -11,7 +11,6 @@ export default function App() {
   const [selectedTier, setSelectedTier] = useState("");
 
 
-
   return (
     <div className="min-h-screen bg-gray-50 text-gray-800 p-6 space-y-6">
       <h1 className="text-2xl font-bold text-center">Trial License Portal</h1>
