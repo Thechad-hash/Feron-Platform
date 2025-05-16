@@ -20,7 +20,7 @@ export default function App() {
 
     <div style={{ display: "flex", gap: "12px", justifyContent: "center", margin: "20px 0" }}>
       <a
-        href="http://localhost:5173"
+        href="https://feron-platform-smart-contracts-ui.vercel.app/"
         style={{
           padding: "10px 20px",
           backgroundColor: "#4F46E5",
@@ -30,10 +30,10 @@ export default function App() {
           textDecoration: "none"
         }}
       >
-        Go to Register Page
+        Go to Register My Ai Page
       </a>
       <a
-        href="http://localhost:5175"
+        href="https://feron.vercel.app/"
         style={{
           padding: "10px 20px",
           backgroundColor: "#10B981",
@@ -43,7 +43,7 @@ export default function App() {
           textDecoration: "none"
         }}
       >
-        Go to Chat Page
+        Chat With Feron
       </a>
     </div>
           <GPTSelect onModelSelect={(model) => {
